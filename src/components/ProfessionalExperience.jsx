@@ -82,6 +82,7 @@ export default function ProfessionalExperience() {
                 boxShadow: isActive
                   ? "0 0 0 4px rgba(59,130,246,0.12)"
                   : "0 2px 12px rgba(0,0,0,0.06)",
+                border: "5px solid #cbd5e1",
               }}
               aria-pressed={isActive}
               aria-label={exp.title}
@@ -178,7 +179,7 @@ const styles = {
   },
   nodeYears: {
     fontSize: "0.62rem",
-    color: "#94a3b8",
+    color: "black",
     fontFamily: "'Georgia', serif",
     letterSpacing: "0.02em",
   },
@@ -231,13 +232,13 @@ const styles = {
   centerYears: {
     margin: 0,
     fontSize: "0.6rem",
-    color: "#94a3b8",
+    color: "black",
     marginTop: 1,
   },
   centerDesc: {
     margin: "6px 0 0",
     fontSize: "0.6rem",
-    color: "#64748b",
+    color: "black",
     lineHeight: 1.5,
     borderTop: "1px solid #f1f5f9",
     paddingTop: 6,
